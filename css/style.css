@@ -1,0 +1,207 @@
+body{
+	width:100%;
+	height:100%;
+
+}
+div{
+
+	box-sizing:border-box;
+}
+header{
+	height: 860px;
+	background: url('../images/bg.jpeg');
+	background-repeat: no-repeat;
+	background-image: fixed;
+	background-position: top;
+	background-attachment: scroll;
+}
+
+.header_wrapper {
+	width:100%;
+	height:80px;
+	background: #b8db4ee3;
+	background-repeat: no-repeat;
+	opacity:.7;
+	padding:0px 40px 20px 40px;
+
+
+
+}
+.header_wrapper img{
+	height:70px;
+	width:70px;
+	position:relative;
+	top:5px;
+	left:15px;
+	border-radius: 50px
+}
+.nav {
+	height:80px;
+	position: relative;
+	bottom:80px;
+
+}
+.nav ul {
+	height:50px;
+	width:500px;
+	float:right;
+	position:relative;
+	
+}
+.nav ul li {
+	display:inline-block;
+	width:150px;
+
+}
+
+.nav a {
+	font-size:30px;
+	text-decoration:none;
+	position:relative;
+	top:5px;
+	left:30px;
+	text-transform:uppercase;
+	color: #000000;
+	font-family: 'Poppins', sans-serif;
+}
+
+.nav a:hover {
+	border-bottom:3px solid yellow	;
+
+
+}
+/* About */
+
+.container {
+    width: 100%;
+    background: #4ddc2929;
+    display: inline-block;
+}
+
+
+.image {
+    width: 600px;
+    height: 600px;
+    float: right;
+    padding: 27px;
+    margin-left: 139px;
+    margin-top: 30px;
+}
+a.button {
+    text-decoration: none;
+    float: right;
+    font-size: 20px;
+    text-transform: uppercase;
+    border: 1px solid #97d6a5;
+    padding: 6px 25px;
+    border-radius: 22px;
+    color: #41d22f;
+}
+
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 32px;
+    padding: 20px;
+}
+section.sec1 {
+	width: 200px
+	height:200px;
+    padding: 20px;
+    float:left;
+
+
+ }
+
+ img {
+    width: 100%;
+}
+
+.p1 {
+    width: 1000px;
+    float: left;
+    padding: 31px;
+    margin-left: 80px;
+}
+
+p {
+    font-size: 18px;
+    padding: 9px;
+}
+
+/* Services */
+
+section.sec2 {
+    width: auto;
+	height:400px;
+    padding: 20px;
+    float:left;
+}
+
+.services-section {
+    width: 607px;
+    float: left;
+    padding: 100px;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    font-size: 100px;
+    text-transform: uppercase;
+}
+
+a.service-button {
+    text-decoration: none;
+    color: #85b742;
+    border: 1px solid #1fe2be;
+    padding: 5px 34px;
+    border-radius: 20px;
+    float: right;
+    font-size: 19px;
+}
+
+i.fa.fa-address-book{
+	font-size: 40px;
+}
+
+
+
+
+
+
+
+
+
+/*
+.logo{
+	width: 70px;
+	height: 70px;
+	padding: 10px 720px 10px 30px;
+	background: blue;
+	float: left;
+	border:2px solid black;
+}
+
+img{
+	width: 100%;
+	border-radius: 50%;
+}
+
+nav{
+	text-align: center;
+    width: 600px;
+    height: 20px;
+    float: right;
+    margin-top: 5px;
+    border: 5px groove #f37b7b;
+    padding: 30px 20px 30px 50px;
+    transition: .8 ease-in-out;
+
+}
+
+a{
+	margin: 20px;
+	border: 2px solid black;
+	padding: 10px 50px 10px 50px;
+}
